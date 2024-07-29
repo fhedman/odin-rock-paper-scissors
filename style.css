@@ -1,0 +1,83 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color:slategray;
+    padding: 70px;
+    border-radius: 10px;
+    height: 350px;
+}
+
+#game {
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#score {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+#player,
+#computer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#playerText,
+#computerText {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.list {
+    list-style: none;
+    padding: 0px;
+}
+
+.button {
+    width: 130px;
+    margin: 7px 0px;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 4px;
+    color: #1F2937;
+    border: none;
+    border-radius: 5px;
+}
+
+.text {
+    color: white;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #1F2937;
+    margin: 0;
+}
+
+h1 {
+    margin: auto;
+}
